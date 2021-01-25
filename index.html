@@ -58,7 +58,7 @@
             <div class="">
                <img src="images/VilasProfilePic.jpg" class="userimg">
                <p class="aboutme">
-                  Recruitment Specialist with proven work experience managing all aspects of HR funtions from Recruitment to Training,head hunting, talent acquisition in order to assist the organisation and fulfill its staffing needs.
+                  Recruitment Specialist with proven work experience managing all aspects of HR functions from Recruitment to Training,head hunting, talent acquisition in order to assist the organisation and fulfill its staffing needs.
                </p>
                <button class="btn"> <a href="images/Vilas_Sugandhi_(HR Recruiter).pdf" target="_blank" download="VilasSugandhi_(HR Recruiter)_Resume">Preview CV</a></button>
             </div>
@@ -83,7 +83,7 @@
                <h2 class="skills_title">Hiring Type</h2>
                <div class="container">
                   <ul class="hiring_list" style="line-height:1.7">
-                     <li>C2H</li>
+                     <li>C2H</li><br/>
                      <li>IT and Non IT Recruitment
                      </li>
                      <li>High-Volume Staffing 
@@ -284,15 +284,14 @@
             } else if($(this).attr('id') == "education"){
               $('.menu-btn.active').removeClass('active');
               $("#nav4").toggleClass('active')
-            }
-         else if($(this).attr('id') == "experience"){
+            }else if($(this).attr('id') == "contact"){
+              $('.menu-btn.active').removeClass('active');
+              $("#nav6").toggleClass('active')
+            } else if($(this).attr('id') == "experience"){
               $('.menu-btn.active').removeClass('active');
               $("#nav5").toggleClass('active')
             }
-         else if($(this).attr('id') == "contact"){
-              $('.menu-btn.active').removeClass('active');
-              $("#nav6").toggleClass('active')
-            }
+         
           }
          });
          });
