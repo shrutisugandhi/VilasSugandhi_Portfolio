@@ -270,7 +270,7 @@
          		});
          $(document).bind('scroll',function(e){
          $('section').each(function(){
-          if ($(this).offset().top < window.pageYOffset + 10 && $(this).offset().top + $(this).height() > window.pageYOffset + 10){
+          if ($(this).offset().top < window.pageYOffset + 100 && $(this).offset().top + $(this).height() > window.pageYOffset + 100){
             window.location.hash = $(this).attr('id');
          if($(this).attr('id') == "home"){
               $('.menu-btn.active').removeClass('active');
